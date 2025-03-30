@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <link rel="stylesheet" href="styles/style.css" media="screen (max-width:600px)">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
+    <main>
         <section id="login">
-            <div id="image">Foto</div>
+            <div id="image"></div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessas sua conta e poder fazer as configurações no seu ambiente</p>
+                <p id="um">Seja bem-vindo(a) novamente!</p>
+                <p id="dois">Faça login para acessar sua conta:</p>
                 <form action="login.php" method="post">
-
+                    <p><input type="email" name="email" id="iemail" required placeholder="Email"></p>
+                    <p><input type="password" name="senha" id="isenha" required placeholder="Senha"></p>
                 </form>
             </div>
         </section>
+    </main>
 </body>
+
 </html>
