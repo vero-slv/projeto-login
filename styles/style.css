@@ -33,6 +33,9 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
+    
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image {
@@ -41,6 +44,11 @@ section#login > div#image {
     height: 200px;
     background-size: cover;
     background-position: center center;
+    display: block;
+}
+
+section#login > div#form {
+    display: block;
 }
 
 div#form > h1 {
@@ -50,14 +58,12 @@ div#form > h1 {
 
 div#form > p#um {
     text-align: center;
+    display: block;
 }
 
 div#form > p#dois {
     text-align: center;
     padding: 0px 10px;
     font-size: 0.9em;
-}
-
-form > p {
-    
+    display: block;
 }
