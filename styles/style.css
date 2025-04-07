@@ -67,3 +67,43 @@ div#form > p#dois {
     font-size: 0.9em;
     display: block;
 }
+
+div#email {
+    background-color: #030d1f;
+    padding: 5px;
+    margin: 5px 10px;
+    height: 38px;
+    border-radius: 8px;
+    position: relative;
+}
+
+div#senha {
+    background-color: #030d1f;
+    padding: 5px;
+    margin: 5px 10px;
+    height: 38px;
+    border-radius: 8px;
+    position: relative;   
+}
+
+div#email > input#iemail {
+    display: block;
+    height: 80%;
+    width: 81%;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    text-indent: 5px;
+}
+
+div#senha > input#isenha {
+    display: block;
+    height: 80%;
+    width: 81%;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    text-indent: 5px;
+}
