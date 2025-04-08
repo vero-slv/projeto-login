@@ -54,6 +54,7 @@ section#login > div#form {
 div#form > h1 {
     text-align: center;
     padding: 5px;
+    margin: 3px 0px;
 }
 
 div#form > p#um {
@@ -66,13 +67,14 @@ div#form > p#dois {
     padding: 0px 10px;
     font-size: 0.9em;
     display: block;
+    margin-bottom: 7px;
 }
 
 div#email {
     background-color: #030d1f;
     padding: 5px;
     margin: 5px 10px;
-    height: 38px;
+    height: 40px;
     border-radius: 8px;
     position: relative;
 }
@@ -81,29 +83,33 @@ div#senha {
     background-color: #030d1f;
     padding: 5px;
     margin: 5px 10px;
-    height: 38px;
+    height: 40px;
     border-radius: 8px;
     position: relative;   
 }
 
 div#email > input#iemail {
     display: block;
-    height: 80%;
+    height: 98%;
     width: 81%;
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 59%;
     transform: translate(-50%, -50%);
     text-indent: 5px;
+    border-radius: 10px;
+    font-size: 1em;
 }
 
 div#senha > input#isenha {
     display: block;
-    height: 80%;
+    height: 98%;
     width: 81%;
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 59%;
     transform: translate(-50%, -50%);
     text-indent: 5px;
+    border-radius: 10px;
+    font-size: 1em;
 }
