@@ -34,7 +34,7 @@ section#login {
     overflow: hidden;
     background-color: white;
     
-    transition: width .3s, heigth .3s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 

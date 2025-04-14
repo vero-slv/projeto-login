@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-queries.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
 <body>
@@ -19,8 +20,18 @@
                 <p id="um">Seja bem-vindo(a) novamente!</p>
                 <p id="dois">Faça login para acessar sua conta:</p>
                 <form action="login.php" method="post">
-                    <div id="email"><input type="email" name="email" id="iemail" required placeholder="Email"></div>
-                    <div id="senha"><input type="password" name="senha" id="isenha" required placeholder="Senha"></div>
+                    <div id="email">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="iemail" required placeholder="Email" autocomplete="email" maxlength="30">
+                        <label for="iemail"></label>
+                    </div>
+                    <div id="senha">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha" autocomplete="current-password" minlength="8" maxlength="15">
+                        <label for="isenha"></label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#" hreflang="pt-br" target="_blank">Esqueci a senha <span class="material-symbols-outlined">mail</span> </a>
                 </form>
             </div>
         </section>
