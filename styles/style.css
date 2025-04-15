@@ -113,3 +113,25 @@ div#senha > input#isenha {
     border-radius: 10px;
     font-size: 1em;
 }
+
+form > input[type=submit] {
+    display: block;
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    border-radius: 3px;
+    border: none;
+    background-color: #1e6180;
+    margin-top: 8px;
+}
+
+form > a {
+    display: block;
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    margin-top: 6px;
+    background-color: #1e6180;
+    border-radius: 3px;
+}
