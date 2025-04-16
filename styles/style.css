@@ -88,7 +88,7 @@ div#senha {
     position: relative;   
 }
 
-div#email > input#iemail {
+div > input.campo {
     display: block;
     height: 98%;
     width: 81%;
@@ -99,25 +99,18 @@ div#email > input#iemail {
     text-indent: 5px;
     border-radius: 10px;
     font-size: 1em;
+    background-color: #96d1ec;
+    /*transform: translateY(-10px);*/
 }
 
-div#senha > input#isenha {
-    display: block;
-    height: 98%;
-    width: 81%;
-    position: absolute;
-    top: 50%;
-    left: 59%;
-    transform: translate(-50%, -50%);
-    text-indent: 5px;
-    border-radius: 10px;
-    font-size: 1em;
+div > input.campo:focus-within {
+    background-color: rgb(255, 255, 255);
 }
 
 form > input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 230px;
+    width: 230px; /*sugestão de width: calc(100% - 50px)*/ 
     height: 40px;
     margin: auto;
     border-radius: 5px;
